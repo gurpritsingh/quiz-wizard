@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>quiz wizard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css" />
+</head>
+<body>
+    
+    <div id="quizWizard" class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Quiz time</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <p data-question></p>
+                </div>
+                <div class="col-12">
+                    <p data-options></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <button data-previous-quest>Previous</button>
+            <button data-next-quest>Next</button>
+        </div>
+
+    </div>
+
+    <div id="quizWizard1" class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Second Quiz time</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <p data-question></p>
+                </div>
+                <div class="col-12">
+                    <p data-options></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <button data-previous-quest>Previous</button>
+            <button data-next-quest>Next</button>
+        </div>
+
+    </div>
+
+    <script src="questions-data.js"></script>
+    <script src="quiz-wizard.js"></script>
+    <script src="custom.js"></script>
+</body>
+</html>
